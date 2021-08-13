@@ -4,7 +4,7 @@ nome = "Joaquim";
 
 let idade: number = 20;
 
-bairro = "Centro";
+let bairro = "centro";
 
 console.log("O nome é : " + nome);
 console.log("A idade é : " + idade);
