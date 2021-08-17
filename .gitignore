@@ -1,0 +1,3 @@
+# to ignore mac files
+.DS_Store
+angular/.DS_Store
