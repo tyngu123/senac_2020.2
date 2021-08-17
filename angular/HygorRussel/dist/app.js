@@ -37,3 +37,8 @@ function somarNumerosOld(x, y) {
 var somarNumeroTres = function (x, y) {
     return x + y;
 };
+var numeroDeTitulos = function (valor) {
+    return valor > 10;
+};
+var titulos = 6;
+console.log("Ter " + titulos + " é suficiente para passar o Vasco " + numeroDeTitulos(titulos));

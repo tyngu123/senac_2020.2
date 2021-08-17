@@ -55,5 +55,16 @@ saudacao("antonio", 50);
 
     let somarNumeroTres = function (x: number, y: number): number{
         return x+y;
-        
+
     }
+
+    let numeroDeTitulos = function (valor: number): boolean {
+        return valor >= 10;
+    }
+
+
+
+let titulos: number = 10;
+        console.log("Ter " + titulos + " é suficiente para passar o Vasco ?" + (numeroDeTitulos(titulos) ? 'Sim' : 'Não')) ;
+
+        console.log(`Ter ${titulos} é suficiente para passar o Vasco? ${(numeroDeTitulos(titulos) ? 'Sim' : 'Não')}`);  

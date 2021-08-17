@@ -31,3 +31,15 @@ var somarNumeros = function (x, y) {
     return x + y;
 };
 console.log(somarNumeros(6, 1));
+function somarNumerosOld(x, y) {
+    return x + y;
+}
+var somarNumeroTres = function (x, y) {
+    return x + y;
+};
+var numeroDeTitulos = function (valor) {
+    return valor >= 10;
+};
+var titulos = 10;
+console.log("Ter " + titulos + " é suficiente para passar o Vasco ?" + (numeroDeTitulos(titulos) ? 'Sim' : 'Não'));
+console.log("Ter " + titulos + " \u00E9 suficiente para passar o Vasco? " + (numeroDeTitulos(titulos) ? 'Sim' : 'Não'));
