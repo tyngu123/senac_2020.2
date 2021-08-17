@@ -1,4 +1,4 @@
-# senac_2020.2
-Repositório de aulas e atividades
-
+# SENAC - Turma 2020.2
 Linguagem de Script para Web
+
+Repositório de aulas e atividades
