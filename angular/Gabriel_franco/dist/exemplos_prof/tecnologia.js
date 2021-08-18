@@ -1,0 +1,15 @@
+"use strict";
+exports.__esModule = true;
+var laptop_1 = require("../laptop/laptop");
+var lenovo_1 = require("../laptop/lenovo");
+var lenovox_1 = require("../laptop/lenovox");
+var laptop = new laptop_1.Laptop(21);
+laptop.ligarMonitor();
+console.log("O laptop tem " + laptop.tamanhoMonitor);
+var laptoplenovo = new lenovo_1.Lenovo(21);
+laptoplenovo.ligarMonitor();
+laptoplenovo.aumentarBrilho(10);
+var game = new lenovox_1.LenovoX(27);
+game.memoriaRAM = 16;
+console.log(("O laptop tem " + game.memoriaRAM + " GB"));
+game.ligarMonitor();
