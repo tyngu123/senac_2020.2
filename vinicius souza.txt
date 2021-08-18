@@ -1,0 +1,17 @@
+comando 
+dir
+cd angular 
+cd vinicius
+dir
+painel 
+sistema 
+sistema novamento 
+configura avanca
+varia a
+ paf
+novo 
+APPDATA%\npm
+
+promod de comando npm install typescript -g
+tsc
+node
