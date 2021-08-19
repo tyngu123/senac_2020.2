@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var veiculo_1 = require("./veiculo");
+var caminhao_1 = require("./caminhao");
+var moto_1 = require("./moto");
+var carro1 = new veiculo_1.Veiculo("preto", "corolla", "Toyota");
+var carro2 = new caminhao_1.Caminhao("Branco", "AR4", "Ford");
+var Carro3 = new moto_1.Moto("veremlha", "Nmax", "Yamaha");
+carro1.Acelerar;
+console.log("A cor do meu caminhao \u00E9 " + carro2.cor);
