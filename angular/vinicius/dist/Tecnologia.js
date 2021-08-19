@@ -1,0 +1,10 @@
+var laptop = new Laptop(21);
+laptop.ligarMonitor();
+console.log("o laptop tem " + laptop.tamanhoMonitor);
+var laptolenovo = new Lenovo(21);
+laptolenovo.ligarMonitor();
+laptolenovo.aumentarBrilho(10);
+var game = new LenovoX(27);
+game.memoriaRam = 16;
+console.log("o laptop tem " + game.memoriaRam + " GB");
+game.ligarMonitor();

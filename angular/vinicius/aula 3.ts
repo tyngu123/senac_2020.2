@@ -1,4 +1,4 @@
-function hello(nome: string = "jose kenndey " : void {
+function hello(nome: string = "john doe ") : void {
      console.log ("hello" + nome + "!");
 }
 

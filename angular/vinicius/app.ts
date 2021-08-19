@@ -32,4 +32,4 @@ console.log("ter"+
          titulos + " é suficiente para passar o flamengo?" 
                  + (numeroDeTitulos(titulos) ? 'sim' : 'não'));
 
-console.log(`Ter ${titulos} é suficiente para passar o Flamengo ? ${numeroDeTitulos(titulos) ?'sim': 'não'}');
+console.log(`Ter ${titulos} é suficiente para passar o Flamengo ? ${numeroDeTitulos(titulos) ?'sim': 'não'}`);
