@@ -1,0 +1,14 @@
+"use strict";
+exports.__esModule = true;
+var caminhao_1 = require("./classes/veiculos/caminhao");
+var moto_1 = require("./classes/veiculos/moto");
+var veiculo1_1 = require("./classes/veiculos/veiculo1");
+var veiculo1 = new veiculo1_1.Veiculo1(556);
+veiculo1.acelerar();
+veiculo1.parar();
+console.log("O modelo do carro \u00E9: " + veiculo1.modelo);
+var moto = new moto_1.Moto(60);
+moto.empinar(30);
+var descarga = new caminhao_1.Caminhao(27);
+descarga.tamanhoCacamba = 16;
+console.log("O caminh\u00E3o descarregou  " + descarga.tamanhoCacamba + " KG");
