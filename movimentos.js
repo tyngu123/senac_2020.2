@@ -1,0 +1,15 @@
+"use strict";
+exports.__esModule = true;
+var veiculo_1 = require("./veiculo");
+var moto_1 = require("./moto");
+var caminhao_1 = require("./caminhao");
+var carro = new veiculo_1.Veiculo("Azul", "2020", "Nissan Versa");
+carro.acelerarVeiculo(50);
+console.log("O carro da ${carro.fabricanteVeiculo} é da cor ${carro.corVeiculo}.");
+var moto = new moto_1.Moto("Preto", "2020", "Honda");
+carro.acelerarVeiculo(50);
+console.log("A moto é da ${carro.fabricanteVeiculo}.");
+moto.empinarMoto(6);
+var caminhao = new caminhao_1.Caminhao("Cinza", "2015", "Mercedes", 1000);
+console.log("O caminhão tem ${caminhao.tamanhoCacamba} litros na caçamba!");
+caminhao.descarregarMaterial(40);
